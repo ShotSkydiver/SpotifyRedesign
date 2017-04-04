@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.mobile.android.spotlets.miniplayer.view.MiniPlayerView android:id="@id/player_preview" android:layout_width="fill_parent" android:layout_height="@dimen/player_preview_height" android:background="@color/solitude"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/player_navigation_unit_container" android:visibility="visible" android:layout_width="@dimen/player_preview_element_size" android:layout_height="@dimen/player_preview_element_size" android:contentDescription="@string/mini_player_content_description_show_now_playing_view">
+            <com.spotify.android.paste.widget.SpotifyIconView android:layout_gravity="center" android:id="@id/btn_chevron_up" android:layout_width="16.0dip" android:layout_height="16.0dip" sp:iconColor="@color/cat_white" sp:iconType="icon_chevron_up_16" />
+            <com.spotify.android.paste.widget.SpotifyIconView android:layout_gravity="center" android:id="@id/btn_connect_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:contentDescription="@string/connect_picker_header_text" />
+        </FrameLayout>
+        <com.spotify.mobile.android.video.VideoSurfaceView android:id="@id/video_surface" android:background="#ff000000" android:visibility="gone" android:layout_width="99.0dip" android:layout_height="fill_parent" sp:fullscreen="false" />
+        <com.spotify.android.paste.widget.carousel.CarouselView android:id="@id/carousel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextAppearance.Glue.Body1Bold" android:textSize="14.0sp" android:textColor="@color/text_primary" android:layout_gravity="center_vertical" android:id="@id/lyrics_btn" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lyrics_mini_player_btn" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/playPause" android:background="@null" android:layout_width="@dimen/player_preview_element_size" android:layout_height="@dimen/player_preview_element_size" android:scaleType="centerInside" android:contentDescription="@string/player_content_description_play" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/skipNext" android:background="@null" android:visibility="gone" android:layout_width="@dimen/player_preview_element_size" android:layout_height="@dimen/player_preview_element_size" android:scaleType="centerInside" android:contentDescription="@string/player_content_description_skip_next" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/connect_unit" />
+    <ProgressBar android:id="@id/mini_player_progress" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="1.0dip" android:progress="23" style="?pasteProgressBarStyleHorizontal" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/connect_icon_arrow" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="18.0dip" android:src="@drawable/connect_arrow" android:baselineAlignBottom="true" android:foregroundGravity="bottom" />
+</com.spotify.mobile.android.spotlets.miniplayer.view.MiniPlayerView>

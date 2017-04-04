@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="hide_bottom_navigation_items_text">true</bool>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="calligraphy_tag_id" />
+    <item type="id" name="title">false</item>
+    <item type="id" name="subtitle">false</item>
+    <item type="id" name="card_view">false</item>
+    <item type="id" name="labels">false</item>
+    <item type="id" name="toolbar">false</item>
+    <item type="id" name="toolbar_inner_content">false</item>
+    <item type="id" name="glue_toolbar_title">false</item>
+    <item type="id" name="glue_toolbar_custom_view_container">false</item>
+    <item type="id" name="toolbar_wrapper">false</item>
+    <item type="id" name="actionbar_background">false</item>
+    <item type="id" name="background">false</item>
+    <item type="id" name="content">false</item>
+    <item type="id" name="action_bar_activity_content">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="navigation">false</item>
+</resources>

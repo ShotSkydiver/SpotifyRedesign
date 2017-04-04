@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="attr" name="fontPath" />
+    <!--<public type="id" name="title" id="0x7f12058d" />-->
+    <!--<public type="id" name="subtitle" id="0x7f12062c" />-->
+    <!--<public type="id" name="labels" id="0x7f12074a" />-->
+    <!--<public type="id" name="toolbar" id="0x7f1205d8" />-->
+    <!--<public type="id" name="toolbar_wrapper" id="0x7f120769" />-->
+    <!--<public type="id" name="actionbar_background" id="0x7f12076a" />-->
+    <!--<public type="id" name="toolbar_inner_content" id="0x7f12076f" />-->
+    <!--<public type="id" name="glue_toolbar_custom_view_container" id="0x7f120770" />-->
+    <!--<public type="id" name="glue_toolbar_title" id="0x7f120769" />-->
+    <!--<public type="id" name="background" id="0x7f1206ab" />-->
+    <!--<public type="id" name="content" id="0x7f1205fd" />-->
+    <!--<public type="id" name="action_bar_activity_content" id="0x7f120000" />-->
+    <!--<public type="id" name="decor_content_parent" id="0x7f1205ad" />-->
+    <!--<public type="id" name="action_bar_container" id="0x7f1205ae" />-->
+    <!--<public type="id" name="action_bar" id="0x7f1205af" />-->
+    <!--<public type="id" name="action_context_bar" id="0x7f1205b0" />-->
+    <!--<public type="id" name="navigation" id="0x7f12082b" />-->
+</resources>

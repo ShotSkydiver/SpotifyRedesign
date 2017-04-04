@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ToggleButton android:tag="theSaveButton" android:id="@id/save_button" android:layout_gravity="center" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cat_album_save" style="?pasteButtonStyleSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

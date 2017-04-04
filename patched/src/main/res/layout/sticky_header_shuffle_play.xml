@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.mobile.android.ui.view.ShufflePlayHeaderView android:orientation="vertical" android:tag="shufffle" android:id="@id/header_download" android:background="?pasteColorButtonHeaderBackground" android:layout_width="fill_parent" android:layout_height="67.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/content" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.03" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/play_button_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.94" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.03" />
+    </LinearLayout>
+</com.spotify.mobile.android.ui.view.ShufflePlayHeaderView>

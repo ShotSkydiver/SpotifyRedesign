@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="spotify_green">#FF1ED760</color>
+    <color name="spotify_black">#ff191414</color>
+    <color name="primary_text_default_material_dark">#ff28282b</color>
+    <color name="secondary_text_default_material_dark">#b327272a</color>
+    <color name="notification_bg_color">#fff5f5f5</color>
+    <color name="system_bars_color">#ff353538</color>
+    <color name="system_bars_color_dark">#ff30303a</color>
+    <color name="design_bottom_navigation_shadow_color">#14000000</color>
+
+    <!-- //////////////////////// -->
+    <color name="ghost_white">#ffF7F8FB</color>
+    <color name="ghost_white_transp">#aaF7F8FB</color>
+    <color name="grey_bg">#efF7F8FB</color>
+    <color name="text_primary">#ff8196ab</color>
+    <color name="text_secondary">#ffff9093</color>
+    <color name="text_secondary_original">#ffa1a2bb</color>
+    <color name="text_metadata">#ff4d525b</color>
+    <color name="text_primary_muted">#ff84919a</color>
+    <color name="text_secondary_muted">#ffeea5a1</color>
+    <color name="text_secondary_muted_orignal">#ff93a4ad</color>
+    <color name="blue_accent">#ff52769f</color>
+    <color name="icon_grey">#ffb9b9b9</color>
+    <color name="solitude">#ffDDE4EE</color>
+    <color name="solitude_lighter">#ffeef2f7</color>
+    <color name="hawkes_blue">#ffCCD5E7</color>
+    <color name="spindle">#ffB5C3D9</color>
+    <color name="slate_blue">#ff6F6CCD</color>
+    <color name="scampi">#ff7861AD</color>
+    <color name="blue_test">#ff6c99cd</color>
+    <color name="blue_light">#ffcfe1f2</color>
+    <color name="blue_lighter">#ffe3eef7</color>
+    <!-- //////////////////////// -->
+
+    <!-- //////////////////////// -->
+    <color name="login_text_field_not_focused">@color/solitude</color>
+    <color name="login_text_field_disabled">#66404040</color>
+    <color name="login_text_field_focused">#c252769f</color>
+    <color name="login_button_facebook_background_default">@color/blue_accent</color>
+    <color name="login_button_facebook_background_pressed">@color/blue_test</color>
+
+    <color name="cat_profile_panel_default">@color/text_secondary_muted_orignal</color>
+    <color name="cat_profile_panel_pressed">@color/text_secondary_original</color>
+    <color name="cat_profile_panel_selected">@color/blue_accent</color>
+    <color name="cat_signup_panel_default">@color/cat_medium_green</color>
+    <color name="cat_signup_panel_pressed">@color/cat_white</color>
+    <color name="cat_signup_panel_selected">@color/cat_white</color>
+    <color name="cat_tab_text_default">@color/cat_grayscale_55</color>
+    <color name="cat_tab_text_selected">@color/cat_grayscale_90</color>
+    <color name="cat_text_contextmenu_default">@color/text_primary</color>
+    <color name="cat_text_contextmenu_disabled">@color/cat_grayscale_70_40</color>
+    <color name="cat_text_link">@color/blue_accent</color>
+    <color name="cat_text_metadata">@color/text_metadata</color>
+    <color name="cat_text_primary_active">@color/glue_green</color>
+    <color name="cat_text_primary_default">@color/text_primary</color>
+    <color name="cat_text_primary_disabled">@color/cat_grayscale_90</color>
+    <color name="cat_text_primary_muted_active">@color/text_secondary_muted</color>
+    <color name="cat_text_primary_muted_default">@color/text_primary_muted</color>
+    <color name="cat_text_primary_muted_disabled">@color/cat_grayscale_70_40</color>
+    <color name="cat_text_secondary_default">@color/text_secondary</color>
+    <color name="cat_text_secondary_disabled">@color/cat_grayscale_80</color>
+    <color name="cat_text_secondary_muted_default">@color/text_secondary_muted</color>
+    <color name="cat_text_secondary_muted_disabled">@color/cat_grayscale_70_40</color>
+    <!-- //////////////////////// -->
+
+    <color name="section_header_bottom_gradient">#002a2b2b</color>
+    <color name="section_header_top_gradient">#ccff9093</color>
+
+
+    <!-- //////////////////////// -->
+    <color name="bg_actionbar">@color/system_bars_color</color>
+    <color name="bg_filter">#fff1f5f8</color>
+    <color name="bg_fortypct_black">#ffe9e9ec</color>
+    <color name="bg_login">#fff1f5f8</color>
+    <color name="bg_medium_grey">#ffdfdfe2</color>
+    <color name="bg_placeholder">#ffe9e9ec</color>
+    <color name="bg_popup">#fff1f5f8</color>
+    <!-- //////////////////////// -->
+    <color name="cat_black">#fff1f5f8</color>
+    <color name="cat_black_87">#e0f1f5f8</color>
+    <color name="cat_black_60">#99f1f5f8</color>
+    <color name="cat_black_40">#fff1f5f8</color>
+    <color name="cat_black_20">#33f1f5f8</color>
+    <!-- //////////////////////// -->
+    <color name="glue_black">#fff1f5f8</color>
+    <color name="glue_black_90">#e6f1f5f8</color>
+    <color name="glue_black_80">#ccf1f5f8</color>
+    <color name="glue_black_70">#b2f1f5f8</color>
+    <color name="glue_black_40">#66f1f5f8</color>
+    <!-- //////////////////////// -->
+    <color name="cat_white">#ff2c2c2f</color>
+    <color name="cat_white_70">#d22c2c2f</color>
+    <color name="cat_white_40">#662c2c2f</color>
+    <color name="cat_white_20">#332c2c2f</color>
+    <color name="cat_white_12_5">#202c2c2f</color>
+    <color name="cat_white_10">#1a2c2c2f</color>
+    <color name="cat_white_5">#0d2c2c2f</color>
+    <!-- //////////////////////// -->
+    <color name="white">#ff2c2c2f</color>
+    <!-- //////////////////////// -->
+    <color name="cat_grayscale_95">#ff505055</color>
+    <color name="cat_grayscale_90">#ff5f5f62</color>
+    <color name="cat_grayscale_90_40">#665f5f62</color>
+    <color name="cat_grayscale_80">#ff79797B</color>
+    <color name="cat_grayscale_70">#ff969698</color>
+    <color name="cat_grayscale_70_40">#66969698</color>
+    <color name="cat_grayscale_55">#ffadadaf</color>
+    <color name="cat_grayscale_55_40">#66adadaf</color>
+    <color name="cat_grayscale_25">#ffadadaf</color>
+    <color name="cat_grayscale_25_90">#e6c5c5c8</color>
+    <color name="cat_grayscale_25_40">#66c5c5c8</color>
+    <color name="cat_grayscale_20">#ffceced1</color>
+    <color name="cat_grayscale_20_90">#e6ceced1</color>
+    <color name="cat_grayscale_15">@color/ghost_white</color>
+    <color name="cat_grayscale_15_40">#66dfdfe2</color>
+    <color name="cat_grayscale_12">#ffe9e9ec</color>
+    <color name="cat_grayscale_8">#fff1f5f8</color>
+    <color name="cat_grayscale_8_90">#e6f1f5f8</color>
+    <!-- //////////////////////// -->
+    <color name="dark_grey">@color/solitude_lighter</color>
+    <!-- //////////////////////// -->
+    <color name="glue_button_primary_white_background_pressed">#ff969698</color>
+    <color name="glue_gray_background">@color/solitude</color>
+    <color name="glue_gray_decorative">#ffceced1</color>
+    <color name="glue_gray_hover">@color/blue_test</color>
+    <color name="glue_gray_inactive">#ff79797B</color>
+    <color name="glue_gray_layer">#ffdfdfe2</color>
+    <color name="glue_gray_secondary">#ff969698</color>
+    <!-- //////////////////////// -->
+    <color name="glue_white">#ff2c2c2f</color>
+    <color name="glue_white_70">#b22c2c2f</color>
+    <color name="glue_white_60">#992c2c2f</color>
+    <color name="glue_white_40">#662c2c2f</color>
+    <!-- //////////////////////// -->
+    <color name="material_grey_900">#fff1f5f8</color>
+    <color name="material_grey_850">#ffe9e9ec</color>
+    <color name="material_grey_800">#ffdfdfe2</color>
+    <color name="material_grey_600">#ffadadaf</color>
+    <color name="material_grey_300">#ff969698</color>
+    <color name="material_grey_100">#ff5f5f62</color>
+    <color name="material_grey_50">#ff505055</color>
+    <!-- //////////////////////// -->
+    <color name="share_edit_text_bg">#ffdfdfe2</color>
+    <!-- //////////////////////// -->
+    <color name="showcase_bg_color">#ff96969f</color>
+    <!-- //////////////////////// -->
+    <color name="switch_thumb_disabled_material_dark">@color/cat_dark_green_40</color>
+    <color name="switch_thumb_normal_material_dark">@color/glue_green</color>
+    <!-- //////////////////////// -->
+    <color name="txt_button_dark">@color/text_metadata</color>
+    <color name="txt_button_facebook">#ffe9e9ee</color>
+    <color name="txt_button_facebook_disabled">#ffadadc3</color>
+    <color name="txt_button_light_disabled">#ff969698</color>
+    <color name="txt_button_light_normal">#fff1f5f8</color>
+    <color name="txt_cell_pressed">@color/glue_green</color>
+    <color name="txt_cell_subtitle_disabled">#ff5f5f62</color>
+    <color name="txt_cell_subtitle_normal">@color/text_secondary</color>
+    <color name="txt_cell_subtitle_pressed">@color/txt_cell_pressed</color>
+    <color name="txt_cell_title_normal">@color/text_primary</color>
+    <color name="txt_dialog_text">@color/text_primary_muted</color>
+    <color name="txt_login_progress">#fff1f5f8</color>
+    <color name="txt_offline_placeholder_body">@color/solitude_lighter</color>
+    <color name="txt_offline_placeholder_title">@color/text_primary</color>
+    <color name="txt_player_preview_title">@color/text_primary</color>
+    <color name="txt_popup_body">@color/text_secondary_muted_orignal</color>
+    <!-- //////////////////////// -->
+    <!-- /// changing spotify green accent color to pink color /// -->
+    <color name="salmon_darker">#ffe9ebeb</color>  <!--ffff555a-->
+    <color name="salmon_dark">#ffff696d</color>
+    <color name="salmon">#ffff9093</color>
+    <color name="salmon_light">#ffffa4a6</color>
+    <color name="salmon_lighter">#ffffc3c5</color>
+    <!-- ///////// begin changes /////// -->
+    <color name="bg_button_light_normal">@color/text_secondary_muted</color>
+    <color name="bg_cell_focused">#ffff9093</color>
+    <color name="bg_cell_selected">#ffffa4a6</color>
+    <color name="bg_divider">#ffffa4a6</color>
+    <color name="bg_pressed">#ffff9093</color>
+    <!-- //////////////////////// -->
+    <color name="cat_dark_green">#ffff696d</color>
+    <color name="cat_dark_green_40">#66ff696d</color>
+    <color name="cat_light_green">#ffffa4a6</color>
+    <color name="cat_light_green_40">#66ffa4a6</color>
+    <color name="cat_light_green_20">#33ffa4a6</color>
+    <color name="cat_light_green_5">#0dffa4a6</color>
+    <color name="cat_medium_green">#ffff9093</color>
+    <color name="cat_medium_green_40">#66ff9093</color>
+    <!-- //////////////////////// -->
+    <color name="glue_button_primary_green_background_default">@color/text_secondary_muted</color>
+    <color name="glue_button_primary_green_background_disabled">#ffffc3c5</color>
+    <!-- //////////////////////// -->
+    <color name="glue_green">#ffff9093</color>
+    <color name="glue_green_dark">#ffff696d</color>
+    <color name="glue_green_light">#ffffa4a6</color>
+    <!-- //////////////////////// -->
+    <color name="green">#ffff696d</color>
+    <!-- //////////////////////// -->
+    <color name="shadow_button">#ffff696d</color>
+    <!-- //////////////////////// -->
+    <color name="view_overlay_green">#22ffa4a6</color>
+</resources>

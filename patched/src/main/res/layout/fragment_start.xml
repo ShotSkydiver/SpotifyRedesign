@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/video_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/bg_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <ImageView android:id="@id/bg_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:src="@drawable/img_spotify_logo_text" android:contentDescription="@string/app_name_content_description" />
+    <include android:id="@id/content_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="30.0dip" android:layout_above="@id/indicator_container" layout="@layout/login_content" />
+    <include android:id="@id/content_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="30.0dip" android:layout_above="@id/indicator_container" layout="@layout/login_content" />
+    <LinearLayout android:id="@id/indicator_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_above="@id/button_container" android:layout_centerHorizontal="true">
+        <View android:id="@id/indicator_0" android:background="@drawable/indicator_bar" android:layout_width="@dimen/signup_indicator_point_size" android:layout_height="@dimen/signup_indicator_point_size" />
+        <View android:id="@id/indicator_1" android:background="@drawable/indicator_bar" android:layout_width="@dimen/signup_indicator_point_size" android:layout_height="@dimen/signup_indicator_point_size" android:layout_marginLeft="@dimen/signup_indicator_point_size" />
+        <View android:id="@id/indicator_2" android:background="@drawable/indicator_bar" android:layout_width="@dimen/signup_indicator_point_size" android:layout_height="@dimen/signup_indicator_point_size" android:layout_marginLeft="@dimen/signup_indicator_point_size" />
+        <View android:id="@id/indicator_3" android:background="@drawable/indicator_bar" android:layout_width="@dimen/signup_indicator_point_size" android:layout_height="@dimen/signup_indicator_point_size" android:layout_marginLeft="@dimen/signup_indicator_point_size" />
+        <View android:id="@id/indicator_4" android:background="@drawable/indicator_bar" android:layout_width="@dimen/signup_indicator_point_size" android:layout_height="@dimen/signup_indicator_point_size" android:layout_marginLeft="@dimen/signup_indicator_point_size" />
+    </LinearLayout>
+    <ViewStub android:id="@id/button_container" android:inflatedId="@id/button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <FrameLayout android:gravity="center" android:id="@id/progress" android:background="@drawable/bg_toast" android:padding="32.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:visibility="visible" style="@style/indeterminateProgressBar" />
+    </FrameLayout>
+</RelativeLayout>

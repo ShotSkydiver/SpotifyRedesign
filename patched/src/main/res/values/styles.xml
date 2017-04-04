@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat" parent="@android:style/Theme.Material" />
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material.Light" />
+
+    <style name="Theme.Spotify.Light.DarkActionBar" parent="@android:style/Theme.Material.Light">
+
+    </style>
+
+    <style name="Theme.Spotify.ActionButton" parent="@android:style/Widget.ActionButton">
+
+    </style>
+
+    <style name="Theme.Paste.Base" parent="@style/Theme.Spotify.Light.DarkActionBar">
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Theme.Paste" parent="@style/Theme.Paste.Base">
+        <item name="android:colorBackground">?pasteColorBackground</item>
+        <item name="android:textAppearance">?pasteTextAppearance</item>
+        <item name="android:textAppearanceInverse">?pasteTextAppearance</item>
+        <item name="android:textAppearanceLarge">?pasteTextAppearance</item>
+        <item name="android:textAppearanceMedium">?pasteTextAppearance</item>
+        <item name="android:textAppearanceSmall">?pasteTextAppearanceSmall</item>
+        <item name="android:textAppearanceLargeInverse">?pasteTextAppearance</item>
+        <item name="android:textAppearanceMediumInverse">?pasteTextAppearance</item>
+        <item name="android:textAppearanceSmallInverse">?pasteTextAppearanceSmall</item>
+        <item name="android:buttonStyle">?pasteDefaultsButtonStyle</item>
+        <item name="android:buttonStyleSmall">?pasteButtonStyleSmall</item>
+        <item name="android:buttonStyleInset">?pasteDefaultsButtonStyle</item>
+        <item name="android:buttonStyleToggle">?pasteDefaultsButtonStyle</item>
+        <item name="android:windowBackground">?pasteColorBackground</item>
+        <item name="android:autoCompleteTextViewStyle">?pasteDefaultsAutoCompleteTextViewStyle</item>
+        <item name="android:editTextStyle">?pasteDefaultsEditTextStyle</item>
+        <item name="android:gridViewStyle">@style/Widget.Paste.GridView</item>
+        <item name="android:progressBarStyleHorizontal">?pasteProgressBarStyleHorizontal</item>
+        <item name="android:textViewStyle">?pasteDefaultsTextStyle</item>
+        <item name="android:dropDownItemStyle">@style/Widget.Paste.DropDownItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/Widget.Paste.DropDownItem.Spinner</item>
+        <item name="android:itemTextAppearance">?pasteTextAppearance</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.Paste.Widget.Button</item>
+        <item name="android:listDivider">?pasteListDivider</item>
+        <item name="android:colorBackgroundCacheHint">#00000000</item>
+        <item name="android:textAppearanceLargePopupMenu">?pasteTextAppearance</item>
+        <item name="android:textColorAlertDialogListItem">@null</item>
+        <item name="android:borderlessButtonStyle">?pasteButtonStyleBorderless</item>
+        <item name="android:buttonBarButtonStyle">?android:borderlessButtonStyle</item>
+        <item name="android:editTextColor">@null</item>
+        <item name="android:editTextBackground">@null</item>
+        <item name="android:windowMinWidthMajor">0.0sp</item>
+        <item name="android:windowMinWidthMinor">0.0sp</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android_checkedTextViewStyle">?pasteDefaultsCheckedTextViewStyle</item>
+        <item name="android_switchStyle">?pasteDefaultsSwitchStyle</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Paste.ActionButton.Overflow</item>
+        <item name="actionOverflowMenuStyle">?listPopupWindowStyle</item>
+        <item name="actionBarStyle">@style/Widget.Paste.ActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarItemBackground">?android:selectableItemBackground</item>
+        <item name="spinnerDropDownItemStyle">@style/Widget.Paste.DropDownItem.Spinner</item>
+        <item name="toolbarStyle">@style/Widget.Paste.Toolbar</item>
+        <item name="switchStyle">?android_switchStyle</item>
+        <item name="pasteActionBarBackground">?pasteActionBarBackground</item>
+        <item name="pasteActionBarTitleTextAppearance">?pasteActionBarTitleTextAppearance</item>
+        <item name="pasteActionBarSubtitleTextAppearance">?pasteActionBarSubtitleTextAppearance</item>
+        <item name="pasteDefaultsButtonStyle">?pasteButtonStyle</item>
+        <item name="pasteDefaultsCheckboxStyle">?android:checkboxStyle</item>
+        <item name="pasteDefaultsRadioButtonStyle">?android:radioButtonStyle</item>
+        <item name="pasteSpotifyIconStyleAccessory">@style/Widget.Paste.SpotifyIconView.Accessory</item>
+    </style>
+
+    <style name="Widget.Glue.NavigationItemView" parent="@style/Widget.Glue">
+        <item name="navigationItemBackground">@drawable/cat_navigationitem_background</item>
+        <item name="navigationItemHeight">@dimen/cat_navigationitem_height</item>
+        <item name="navigationItemIconPadding">@dimen/cat_navigationitem_icon_padding</item>
+        <item name="navigationItemIconSize">@dimen/cat_navigationitem_icon_size</item>
+        <item name="navigationItemIconColor">@color/cat_navigationitem_icon</item>
+        <item name="navigationItemPaddingLeftRight">@dimen/cat_navigationitem_padding</item>
+        <item name="navigationItemTextAppearance">@style/TextAppearance.Cat.NavigationItem</item>
+    </style>
+
+    <style name="Material.Text" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="fontPath">fonts/Calibri/Regular.otf</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextAppearance.Glue.ToolbarTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontPath">fonts/Spotify50-Bold.otf</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextAppearance.Glue.LoginTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">17.0sp</item>
+        <item name="fontPath">fonts/Spotify100-Bold.otf</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary_muted</item>
+    </style>
+
+    <style name="LoginHeaderTextAppearance" parent="@style/TextAppearance.Glue.LoginTitle" />
+
+    <style name="TextAppearance.Glue.Body1" parent="@style/Material.Text" />
+
+    <style name="TextAppearance.Glue.Body1.Login" parent="@style/Material.Text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/text_primary_muted</item>
+        <item name="fontPath">fonts/Calibri/RegularItalic.otf</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TextAppearance.Glue.Body1.LoginField" parent="@style/Material.Text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/spindle</item>
+    </style>
+
+
+    <!--<style name="TextAppearance.Glue.Body1Bold" parent="@style/Material.Text">
+        <item name="fontPath">fonts/Spotify100-Book.otf</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16.0sp</item>
+    </style>-->
+    <style name="TextAppearance.Glue.Body1Bold" parent="@style/TextAppearance.Glue.Button">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+
+    <style name="TextAppearance.Glue.Body2" parent="@style/Material.Text">
+        <item name="android:textSize">13.0sp</item>
+    </style>
+    <style name="TextAppearance.Glue.Body2Bold" parent="@style/Material.Text" />
+
+    <style name="TextAppearance.Glue.Header1" parent="@style/Material.Text">
+        <item name="android:textSize">40.0sp</item>
+        <item name="fontPath">fonts/Calibri/Bold.otf</item>
+    </style>
+    <style name="TextAppearance.Glue.Header2" parent="@style/Material.Text">
+        <item name="android:textSize">22.0sp</item>
+    </style>
+    <style name="TextAppearance.Glue.Header2Bold" parent="@style/TextAppearance.Glue.Header1">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="TextAppearance.Glue.Hero" parent="@style/TextAppearance.Glue.Header1">
+        <item name="android:textSize">52.0sp</item>
+    </style>
+    <style name="TextAppearance.Glue.Metadata" parent="@style/Material.Text">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontPath">fonts/Calibri/Light.otf</item>
+    </style>
+    <style name="TextAppearance.MiniPlayer" parent="@style/Material.Text" />
+    <style name="TextAppearance.MiniPlayer.SingleLineSubTitle" parent="@style/TextAppearance.Glue.Body2">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="TextAppearance.MiniPlayer.SingleLineTitle" parent="@style/TextAppearance.Glue.Body2Bold" />
+    <style name="TextAppearance.MiniPlayer.Subtitle" parent="@style/TextAppearance.Glue.Body2">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="TextAppearance.MiniPlayer.Title" parent="@style/TextAppearance.Glue.Body1Bold">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+
+    <style name="TextAppearance.Cat" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorLink">@color/blue_test</item>
+        <item name="fontPath">fonts/Calibri/Regular.otf</item>
+    </style>
+    <style name="TextAppearance.Cat.ActionBar" parent="@style/TextAppearance.Cat" />
+    <style name="TextAppearance.Cat.Dialog" parent="@style/TextAppearance.Cat">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHighlight">@color/blue_accent</item>
+        <item name="android:textColorLink">@color/blue_test</item>
+    </style>
+    <style name="TextAppearance.Cat.Dialog.Body" parent="@style/TextAppearance.Cat.Dialog">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="TextAppearance.Cat.Dialog.Title" parent="@style/TextAppearance.Cat.Dialog">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontAsset">@string/glue_font_circular_bold</item>
+        <item name="android:textColor">@color/blue_accent</item>
+    </style>
+    <style name="TextAppearance.Cat.Dialog.Title.Upsell" parent="@style/TextAppearance.Cat.Dialog.Title">
+        <item name="android:textSize">23.0sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="TextAppearance.Cat.Heading" parent="@style/TextAppearance.Cat">
+        <item name="android:textSize">17.0sp</item>
+        <item name="fontAsset">@string/glue_font_circular</item>
+    </style>
+    <style name="TextAppearance.Cat.Heading.Album" parent="@style/TextAppearance.Glue.Button">
+        <item name="android:textColor">@color/ghost_white_transp</item>
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="TextAppearance.Cat.Header" parent="@style/TextAppearance.Cat.Heading">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="TextAppearance.Cat.Heading.Small" parent="@style/TextAppearance.Cat.Heading">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="TextAppearance.Cat.Label" parent="@style/TextAppearance.Cat">
+        <item name="android:textSize">9.0sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontPath">fonts/Calibri/Semibold.otf</item>
+    </style>
+    <style name="TextAppearance.Cat.Metadata" parent="@style/TextAppearance.Cat">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/text_metadata</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontPath">fonts/Calibri/Light.otf</item>
+    </style>
+    <style name="TextAppearance.Cat.Metadata.Small" parent="@style/TextAppearance.Cat.Metadata">
+        <item name="android:textSize">9.0sp</item>
+    </style>
+    <style name="TextAppearance.Cat.Muted" parent="@style/TextAppearance.Cat">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/text_primary_muted</item>
+    </style>
+    <style name="TextAppearance.Cat.Secondary" parent="@style/TextAppearance.Glue.Body2">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textColorLink">@color/solitude_lighter</item>
+    </style>
+    <style name="TextAppearance.Cat.Secondary.Muted" parent="@style/TextAppearance.Cat.Muted">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/text_secondary_muted</item>
+    </style>
+
+    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget">
+        <item name="statusBarBackground">@android:color/transparent</item>
+    </style>
+
+
+    <style name="Theme.Glue.NoActionBar" parent="@style/Theme.Glue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:navigationBarColor">@color/solitude_lighter</item>
+        <!--<item name="android:statusBarColor">@color/blue_lighter</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="colorPrimary">@color/ghost_white</item>
+        <item name="colorPrimaryDark">@color/blue_accent</item>
+        <item name="colorAccent">@color/glue_green</item>
+        <item name="pasteColorBackground">@color/ghost_white</item>
+        <item name="android:windowBackground">@color/ghost_white</item>
+        <item name="pasteColorPlaceholder">@color/spindle</item>
+        <item name="pasteColorPlaceholderBackground">@color/solitude</item>
+        <item name="pasteColorButtonHeaderBackground">@color/solitude_lighter</item>
+
+        <item name="glueHeaderStyle">@style/Widget.GlueHeaderView</item>
+        <item name="selectableItemBackground">@drawable/glue_list_selector</item>
+        <item name="popupMenuStyle">@style/Widget.Glue.ListPopupWindow</item>
+        <item name="popupWindowStyle">@style/Widget.Glue.PopupWindow</item>
+        <item name="listPopupWindowStyle">@style/Widget.Glue.ListPopupWindow</item>
+        <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
+
+        <item name="pasteColorTextPrimary">@color/text_primary</item>
+        <item name="pasteColorTextSecondary">@color/text_secondary</item>
+        <item name="pasteColorTextMetadata">@color/text_metadata</item>
+        <item name="pasteColorTextMuted">@color/text_primary_muted</item>
+        <item name="pasteTextAppearance">@style/Material.Text</item>
+
+        <item name="pasteListDividerVertical">@drawable/cat_list_divider_vertical</item>
+        <item name="pasteListDivider">@drawable/cat_list_divider</item>
+
+        <item name="pasteDefaultsNavigationItemStyle">@style/Widget.Glue.NavigationItemView</item>
+
+        <item name="android:itemTextAppearance">@style/Material.Text</item>
+
+    </style>
+
+    <style name="Theme.Glue.NoActionBar.Login" parent="@style/Theme.Glue.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_gradient_white</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/solitude</item>
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/solitude</item>-->
+    </style>
+
+    <style name="LoginEditTextAppearance" parent="@style/TextAppearance.Glue.Body1.LoginField" />
+
+    <style name="LoginFieldIconCat">
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="iconColor">@color/text_secondary_original</item>
+    </style>
+
+    <style name="Widget.Glue.ViewPagerIndicator" parent="@style/Widget.Glue">
+        <item name="indicatorSize">5.0sp</item>
+        <item name="indicatorSpacing">5.0sp</item>
+        <item name="indicatorInactiveColor">@color/text_metadata</item>
+        <item name="indicatorActiveColor">@color/glue_green</item>
+    </style>
+    <style name="Widget.Glue.HeaderView" parent="@style/Widget.Glue">
+        <item name="headerTitleTextAppearance">@style/TextAppearance.Cat.Heading.Album</item>
+        <item name="headerImageSize">@fraction/legacy_header_image_size</item>
+    </style>
+
+    <style name="Widget.GlueHeaderView" parent="@style/Widget">
+        <item name="glueHeaderViewPreferredHeight">@fraction/header_height_fraction_standard</item>
+        <item name="glueHeaderViewOverlayColor">@color/text_secondary_muted</item>
+        <item name="glueHeaderViewGradientStart">@color/text_secondary</item>
+        <item name="glueHeaderViewGradientEnd">@android:color/transparent</item>
+        <item name="glueHeaderViewVisualStyle">color|image</item>
+    </style>
+    <style name="Widget.Glue.PrettyHeaderView" parent="@style/Widget.Glue">
+        <item name="prettyHeaderShowBackground">false</item>
+        <item name="prettyHeaderBackgroundColorTint">@color/grey_bg</item>
+        <item name="prettyHeaderDefaultBackground">@null</item>
+        <item name="prettyHeaderAccessoryMargin">24.0sp</item>
+    </style>
+
+    <style name="Widget.Glue.Toolbar.Title" parent="@style/Widget.Glue.Toolbar">
+        <item name="android:textAppearance">@style/TextAppearance.Glue.Body1Bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="fontPath">fonts/Spotify50-Bold.otf</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="Widget.Glue.Toolbar.Title.Centered" parent="@style/Widget.Glue.Toolbar.Title">
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="FadeDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+    <style name="SlideDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/translate_left_side</item>
+        <item name="android:windowExitAnimation">@anim/translate_right_side</item>
+    </style>
+
+    <style name="Theme.Glue.Dialog" parent="@style/Theme.Glue">
+        <item name="android:windowBackground">@color/pasteTransparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/SlideDialogAnimation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_min_width_minor</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="selectableItemBackground">@drawable/glue_list_selector_light</item>
+        <item name="pasteDialogBackground">@drawable/cat_dialog_background</item>
+        <item name="pasteDialogBackgroundColor">@color/solitude_lighter</item>
+        <item name="pasteDialogButtonBarBackground">@drawable/cat_dialog_button_bar_background</item>
+        <item name="pasteDialogButtonBarDividerWidth">1.0sp</item>
+        <item name="pasteDialogButtonLeftStyle">@style/DialogButton.Glue.Left</item>
+        <item name="pasteDialogButtonRightStyle">@style/DialogButton.Glue.Right</item>
+        <item name="pasteDialogButtonSinglePositiveStyle">@style/DialogButton.Glue.Single.Positive</item>
+        <item name="pasteDialogButtonSingleNegativeStyle">@style/DialogButton.Glue.Single.Negative</item>
+        <item name="pasteDialogTitleDividerWidth">0.0sp</item>
+        <item name="pasteDialogTitleDivider">@null</item>
+        <item name="pasteDialogTitleDividerVisibility">gone</item>
+        <item name="pasteDialogTitleDividerSpacing">0.0sp</item>
+        <item name="pasteDialogTitleGravity">left</item>
+        <item name="pasteDialogBodyGravity">left</item>
+        <item name="pasteDialogContentMargin">12.0sp</item>
+        <item name="pasteTextAppearance">@style/TextAppearance.Cat.Dialog.Body</item>
+        <item name="pasteTextAppearanceHeading">@style/TextAppearance.Cat.Dialog.Title</item>
+        <item name="pasteDefaultsAutoCompleteTextViewStyle">@style/Widget.Glue.EditText.AutoComplete.Dialog</item>
+        <item name="pasteDefaultsEditTextStyle">@style/Widget.Glue.EditText.Dialog</item>
+        <item name="pasteButtonStyleInfo">@style/Widget.Cat.Button.Info.Dialog</item>
+        <item name="glueSectionHeaderTitleColor">@color/glue_dialog_row_title_color</item>
+        <item name="glueSectionHeaderDescriptionColor">@color/glue_dialog_row_subtitle_color</item>
+        <item name="glueRowTitleColor">@color/glue_dialog_row_title_color</item>
+        <item name="glueRowSubtitleColor">@color/glue_dialog_row_subtitle_color</item>
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+    <style name="Theme.Glue.Dialog.List" parent="@style/Theme.Glue.Dialog">
+        <item name="android:listChoiceBackgroundIndicator">@drawable/glue_list_selector_light</item>
+        <item name="pasteDialogTitleDividerWidth">1.0sp</item>
+        <item name="pasteDialogTitleDivider">@drawable/cat_list_divider_light</item>
+        <item name="pasteDialogTitleDividerVisibility">visible</item>
+        <item name="pasteDialogTitleDividerSpacing">12.0sp</item>
+        <item name="pasteDialogContentMargin">0.0px</item>
+        <item name="pasteColorAccessory">@color/text_primary_muted</item>
+        <item name="pasteListDivider">@drawable/cat_list_divider_light</item>
+        <item name="pasteColorTextPrimary">@color/text_primary</item>
+        <item name="pasteColorTextSecondary">@color/text_secondary</item>
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+    <style name="Theme.Glue.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowBackground">@color/pasteTransparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowEnterAnimation">@anim/translate_left_side</item>
+        <item name="android:windowExitAnimation">@anim/translate_right_side</item>
+    </style>
+
+    <style name="Base.AlertDialog.AppCompat" parent="@android:style/Widget">
+        <item name="android:layout">@layout/abc_alert_dialog_material</item>
+        <item name="listLayout">@layout/abc_select_dialog_material</item>
+        <item name="multiChoiceItemLayout">@layout/select_dialog_multichoice_material</item>
+        <item name="singleChoiceItemLayout">@layout/select_dialog_singlechoice_material</item>
+        <item name="listItemLayout">@layout/select_dialog_item_material</item>
+        <item name="android:windowEnterAnimation">@anim/translate_left_side</item>
+        <item name="android:windowExitAnimation">@anim/translate_right_side</item>
+    </style>
+
+    <style name="Base.Animation.AppCompat.Dialog" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/translate_left_side</item>
+        <item name="android:windowExitAnimation">@anim/translate_right_side</item>
+    </style>
+
+    <style name="Widget.Glue.PopupWindow" parent="@style/Widget.Paste.Base.PopupWindow">
+        <item name="android:popupBackground">@color/ghost_white</item>
+    </style>
+
+
+
+    <style name="FacebookButton" parent="@style/Widget.Glue.Button">
+        <item name="android:textAppearance">@style/FacebookButtonText</item>
+        <item name="android:background">@drawable/login_button_facebook_blue</item>
+    </style>
+    <style name="FacebookButtonText" parent="@style/TextAppearance.Glue.Button">
+        <item name="android:textColor">@color/ghost_white</item>
+        <item name="android:textSize">@dimen/login_button_facebook_text_size</item>
+    </style>
+    <style name="LoginHeaderText" parent="@style/TextAppearance.Glue.Button">
+        <item name="android:textColor">#baF7F8FB</item>
+        <item name="android:textSize">21.0sp</item>
+        <item name="fontAsset">@string/glue_font_circular_bold</item>
+    </style>
+
+    <style name="StartPageTitleTextAppearance" parent="@style/TextAppearance.Glue.Button">
+        <item name="android:textColor">@color/ghost_white</item>
+        <item name="android:textSize">22.0sp</item>
+    </style>
+    <style name="StartPageDescriptionTextAppearance" parent="@style/TextAppearance.Glue.Body1.Login">
+        <item name="android:textColor">@color/ghost_white</item>
+        <item name="android:textSize">13.0sp</item>
+    </style>
+
+    <style name="StartPageButton.Primary.Start" parent="@style/StartPageButton.Primary">
+        <item name="android:background">@drawable/btn_cat_login_button_primary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#ffe5e6e9</item>
+    </style>
+    <style name="StartPageButton.Secondary.Start" parent="@style/StartPageButton.Secondary">
+        <item name="android:background">@drawable/btn_cat_login_button_secondary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/solitude</item>
+    </style>
+
+</resources>

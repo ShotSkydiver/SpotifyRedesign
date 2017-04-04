@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingTop="12.0dip" android:paddingBottom="4.0dip" android:layout_width="match_parent" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <TextView tools:ignore="MissingPrefix" fontPath="fonts/Spotify-Bold.otf" android:textSize="17.5dip" android:textAllCaps="true" android:textColor="@color/text_primary" android:ellipsize="end" android:gravity="left" android:layout_gravity="center_horizontal" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="5.0dip" android:maxLines="1"  />
+    <View
+        android:background="@color/text_secondary_muted_orignal"
+        android:layout_height="0.8dp"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="2.0dip"
+        android:paddingBottom="5dp"
+        />
+    <!--<TextView tools:ignore="MissingPrefix" fontPath="fonts/Lato-Light.ttf" android:textSize="13.0dip" android:textColor="@color/cat_white_40" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@android:id/text2" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="5.0dip" android:maxLines="1" android:text="Startpage subtitle test text" />-->
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.android.glue.components.toolbar.GlueToolbarLayout android:id="@+id/glue_toolbar" android:tag="glue_tb" android:fitsSystemWindows="true" android:orientation="horizontal" android:layout_width="match_parent" android:layout_gravity="top" android:layout_height="56sp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@android:style/Theme.Material.Light" />

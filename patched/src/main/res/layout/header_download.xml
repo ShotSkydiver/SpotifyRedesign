@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.mobile.android.ui.view.DownloadHeaderView android:tag="theDownloadView" android:gravity="left" android:orientation="vertical" android:id="@id/header" android:background="@android:color/transparent" android:paddingLeft="@dimen/download_button_margin" android:paddingRight="@dimen/download_button_margin" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout android:gravity="center" android:id="@id/button_download_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/download_header_content_height">
+        <TextView tools:ignore="MissingPrefix" fontPath="fonts/Calibri/Medium.otf" android:textSize="13.5dip" android:textAllCaps="true" android:gravity="left" android:textColor="@color/text_primary" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/header_download_available_offline_new_copy" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip">
+        <TextView android:textAppearance="?pasteTextAppearanceSecondary" android:textColor="@color/text_secondary_muted" android:gravity="center" android:id="@id/text_waiting" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/header_download_waiting" android:drawableLeft="@drawable/icn_download_header_waiting" android:drawablePadding="5.0dip" />
+        <ProgressBar android:id="@id/progress_bar" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="@dimen/download_header_progress_bar_padding_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/download_header_progress_bar_height" style="?pasteProgressBarStyleHorizontal" />
+    </FrameLayout>
+</com.spotify.mobile.android.ui.view.DownloadHeaderView>

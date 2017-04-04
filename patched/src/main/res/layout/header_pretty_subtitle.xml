@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="headerPrettySub" android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <ToggleButton android:id="@id/save_button" android:layout_gravity="bottom" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cat_album_save" style="?pasteButtonStyleSmall" />
+    <TextView tools:ignore="MissingPrefix" android:tag="artistText" fontPath="fonts/Calibri/Regular.otf" android:textSize="13.0dip" android:gravity="center" android:id="@id/subtitle" android:visibility="invisible" android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+</LinearLayout>

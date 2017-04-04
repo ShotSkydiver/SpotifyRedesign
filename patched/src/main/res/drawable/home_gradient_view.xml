@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"  android:id="@+id/selected" android:oneshot="false">
+    <!-- The drawables used here can be solid colors, gradients, shapes, images, etc. -->
+    <item android:drawable="@drawable/gradient_one" android:duration="4000"  />
+    <item android:drawable="@drawable/gradient_two" android:duration="4000" />
+    <item android:drawable="@drawable/gradient_three" android:duration="4000" />
+</animation-list>
+
+    <!--android:duration="4000" is the duration till the gradient will be shown on the screen-->

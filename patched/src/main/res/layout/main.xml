@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/coordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true" >
+
+            <com.spotify.mobile.android.ui.view.MainLayout android:id="@id/content" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+                <com.spotify.mobile.android.ui.view.snackbar.SnackBar android:id="@id/snack_bar_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.spotify.mobile.android.ui.view.snackbar.SnackBar android:id="@id/snack_bar_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <FrameLayout android:id="@id/connect_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <FrameLayout android:id="@id/navigation_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+                <com.spotify.mobile.android.spotlets.tinkerbell.TooltipContainer android:id="@id/tooltip_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:id="@id/content_lock" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.spotify.mobile.android.ui.view.MainLayout>
+
+            <!-- Include the AppBarLayout
+            <include layout="@layout/new_toolbar" />
+            -->
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+    <FrameLayout android:id="@id/screensaver_ad_container" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

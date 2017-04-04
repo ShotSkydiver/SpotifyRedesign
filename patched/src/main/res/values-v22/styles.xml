@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Glue.NoActionBar.Login" parent="@style/Theme.Glue.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_gradient_white</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:dialogTheme">@style/Theme.Glue.NoActionBar.Login.Dialog</item>
+        <item name="android:datePickerStyle">@style/Theme.Glue.NoActionBar.Login.Dialog.DatePicker</item>
+    </style>
+
+</resources>

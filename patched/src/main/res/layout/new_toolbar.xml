@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:theme="@android:style/Theme.Material.Light" >
+
+    <Toolbar
+        android:id="@+id/toolbar_new"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/ghost_white"
+        android:elevation="4dp"
+        android:minHeight="?android:attr/actionBarSize"
+        app:popupTheme="@android:style/Theme.Material"
+        app:theme="@android:style/Theme.Material.Light" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <!-- This is a centered title -->
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="?android:attr/actionBarSize"
+                android:layout_marginLeft="?android:attr/actionBarSize"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="Spotify"
+                android:textAllCaps="true"
+                android:textColor="@color/system_bars_color"
+                android:textSize="14.0dip"
+                tools:ignore="MissingPrefix"
+                fontPath="fonts/Lato-Heavy.ttf"
+                />
+
+            <!-- This is a custom left side button -->
+            <ImageButton
+                android:id="@+id/btn_profile"
+                android:layout_width="?android:attr/actionBarSize"
+                android:layout_height="?android:attr/actionBarSize"
+                android:layout_gravity="start|center_vertical"
+                android:src="@drawable/ic_person_black_24dp"
+                android:tint="@color/material_grey_50"
+                style="@style/Theme.Spotify.ActionButton" />
+
+            <ImageButton
+                android:id="@+id/btn_settings"
+                android:layout_width="?android:attr/actionBarSize"
+                android:layout_height="?android:attr/actionBarSize"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_settings_black_24dp"
+                android:tint="@color/material_grey_50"
+                style="@style/Theme.Spotify.ActionButton" />
+
+        </FrameLayout>
+    </Toolbar>
+
+</android.support.design.widget.AppBarLayout>

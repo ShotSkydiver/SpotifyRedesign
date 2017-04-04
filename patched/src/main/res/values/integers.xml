@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="card_aspect_ratio">68</integer>
+    <!--<integer name="card_height_percentage">75</integer>-->
+    <integer name="card_height_percentage">85</integer>
+    <integer name="view_transition_duration_fade_in">500</integer>
+    <integer name="view_transition_duration_fade_out">150</integer>
+</resources>

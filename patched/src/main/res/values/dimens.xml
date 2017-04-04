@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_row_gap">10.0dip</dimen>
+    <dimen name="cat_button_border_width">2.0dip</dimen>
+    <dimen name="cat_button_corner_radius">6.0sp</dimen>
+    <dimen name="cat_button_height">50.0sp</dimen>
+    <dimen name="cat_button_padding">32.0sp</dimen>
+    <dimen name="cat_button_small_border_width">0.7dip</dimen>
+    <dimen name="cat_button_small_corner_radius">2.5sp</dimen>
+    <dimen name="cat_button_small_height">22.0sp</dimen>
+    <dimen name="cat_button_small_padding">18.0sp</dimen>
+    <dimen name="cat_dialog_corner_radius">4.0dip</dimen>
+    <dimen name="cell_height">52.0dip</dimen>
+    <dimen name="cell_margin">12.0dip</dimen>
+    <dimen name="cell_padding">8.0dip</dimen>
+    <dimen name="design_appbar_elevation">8.0dip</dimen>
+    <dimen name="glue_button_corner_radius">4.0sp</dimen>
+    <dimen name="glue_button_height">44.0sp</dimen>
+    <dimen name="glue_button_padding">38.0sp</dimen>
+    <dimen name="porcelain_carousel_card_text_area">64.0dip</dimen>
+    <dimen name="porcelain_carousel_images_height_normal">160.0dip</dimen>
+    <dimen name="player_background_corner_size">2.0dip</dimen>
+    <dimen name="popup_corner_radius">2.0dip</dimen>
+    <dimen name="std_16dp">14.0dip</dimen>
+    <dimen name="std_24dp">22.0dip</dimen>
+    <dimen name="std_8dp">6.0dip</dimen>
+    <dimen name="login_text_field_corner_radius">4.0dip</dimen>
+    <dimen name="login_text_field_height">44.0dip</dimen>
+    <dimen name="login_page_margin_top">16.0dip</dimen>
+    <dimen name="signup_indicator_point_size">5.0dip</dimen>
+</resources>

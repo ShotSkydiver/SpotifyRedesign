@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/button_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button_login" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_log_in" android:layout_weight="1.0" android:filterTouchesWhenObscured="false" style="@style/StartPageButton.Secondary.Start" />
+    <Button android:id="@id/button_signup" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_sign_up" android:layout_weight="1.0" android:filterTouchesWhenObscured="false" style="@style/StartPageButton.Primary.Start" />
+</LinearLayout>

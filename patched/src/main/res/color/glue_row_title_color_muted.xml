@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="@color/glue_gray_inactive" />
+    <item android:state_active="true" android:color="@color/glue_green" />
+    <item android:color="@color/text_primary_muted" />
+</selector>

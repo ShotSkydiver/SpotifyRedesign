@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="listtile_2_image" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto" app:riv_corner_radius="2.0dip" app:riv_border_width="0.0dip" app:riv_border_color="@color/ghost_white" android:background="@drawable/shadow_list" android:id="@android:id/icon" android:duplicateParentState="true" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="4.0dip" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:id="@id/labels" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/TextAppearance.Glue.Body1" android:textColor="?glueRowTitleColor" android:ellipsize="end" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textAppearance="@style/TextAppearance.Glue.Body2" android:textColor="?glueRowSubtitleColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/text2" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0sp" android:maxLines="1" android:drawablePadding="6.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/accessory" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+</LinearLayout>
