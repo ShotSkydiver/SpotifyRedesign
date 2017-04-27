@@ -15,6 +15,7 @@ One of the most consistently frustrating (and yet also exciting) things I had to
 <img align="right" src="http://i.imgur.com/Wi3CVAi.png" title="spotify" /> It’s not perfect, and it’s definitely not the most efficient code, but considering all of the limitations I had within the app, and the fact that doing this was probably way more difficult than if I had just written an entire app myself, I’m really proud with what I was able to create, modify, and most importantly, learn. This project has taught me so, so, much, and not just about the way the Spotify app works. I’ve grown very familiar with Gradle, dex file patching, editing smali files manually, and so much more that I can’t remember off the top of my head. 
 <br/>
 <br/>
+
 [connerowen.me][]
 
 [connerowen.me]: http://connerowen.me/
